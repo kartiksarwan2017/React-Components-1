@@ -1,0 +1,40 @@
+/* Write code for your CSS here */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+p {
+    font-size: 20px;
+    color: rgb(63, 62, 62);
+}
+
+
+/* Skills */
+
+.skills-list{
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+}
+.skills-list li{
+    padding: 10px;
+    background-color: aqua;
+    display: inline-block;
+    border-radius: 7px;
+    font-size: 20px;
+    color: rgb(44, 43, 43);
+}
